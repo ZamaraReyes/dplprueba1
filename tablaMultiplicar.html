@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+	<script language="javascript">
+		var Numero, i, j;
+		var MaxNumeros = 10;
+		Numero = prompt("Introduce un numero:", "");
+		Numero = parseInt(Numero);
+		document.write("<tr><th><b>Tabla de multiplicar del "+ Numero + ": </b></th></tr><br>");
+		for (i = 0; i <= MaxNumeros; i ++) {
+			j = Numero * i;
+			document.write(Numero +" x "+ i +" = "+ j + "<br>");
+		}
+		document.write("</table>");
+	</script>
+</body>
+</html>
